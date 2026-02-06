@@ -6,7 +6,7 @@
 /*   By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 18:54:43 by rodde-fr          #+#    #+#             */
-/*   Updated: 2026/02/06 17:42:09 by rodde-fr         ###   ########.fr       */
+/*   Updated: 2026/02/06 17:50:31 by rodde-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	main(void)
 	printf("copia de destino: %s\n", dest);
 	// comprobamos que la funcion funciona correctamtente
 	if (strcmp(dest, src) == 0)
-		printf("ft_memcpy funciona\n");
+		printf("ft_memcpy funcionan, las cadenas son iguales\n");
 	else
 		printf("Ha habido un error en la copia\n");
 	return (0);
