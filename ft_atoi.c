@@ -38,7 +38,7 @@ int	ft_atoi(const char *str)
 	return (result * sign);
 }
 
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -50,3 +50,4 @@ int	main(void)
 	printf("Result: %d\n", result);
 	return (0);
 }
+*/

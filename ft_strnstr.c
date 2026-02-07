@@ -34,7 +34,7 @@ char	*ft_strnstr(const char *str, const char *str2, size_t len)
 	return (0);
 }
 
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -52,3 +52,4 @@ int	main(void)
 		printf("No encontrado!!!\n");
 	return (0);
 }
+*/
