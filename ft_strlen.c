@@ -6,7 +6,7 @@
 /*   By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 18:59:12 by rodde-fr          #+#    #+#             */
-/*   Updated: 2026/02/01 18:59:14 by rodde-fr         ###   ########.fr       */
+/*   Updated: 2026/02/10 19:35:45 by rodde-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ size_t	ft_strlen(const char *s)
 int	main(void)
 {
 	char	str[] = "esternocleidomastoideo, hola caracola";
-    char    str1[] = "prueba segundo string";
+	char	str1[] = "prueba segundo string";
 	int		length;
 
 	length = ft_strlen(str1);

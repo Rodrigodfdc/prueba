@@ -6,7 +6,7 @@
 /*   By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 18:54:03 by rodde-fr          #+#    #+#             */
-/*   Updated: 2026/02/01 18:54:07 by rodde-fr         ###   ########.fr       */
+/*   Updated: 2026/02/10 19:34:05 by rodde-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,34 +25,30 @@ t_list	*ft_lstnew(void *content)
 }
 
 /*
-int main(void)
+int	main(void)
 {
-    t_list  *nodo;
-    char    *contenido = "Jonatham, Joseph, Jotaro, Josuke, Giorno, Jolyne";
+	t_list	*nodo;
+	char	*contenido;
 
-    // 1. Creamos el nodo
-    nodo = ft_lstnew(contenido);
-
-    // 2. Verificamos si la asignación falló
-    if (!nodo)
-    {
-        printf("Error: No se pudo asignar memoria para el nodo.\n");
-        return (1);
-    }
-
-    // 3. Imprimimos los valores para comprobar
-    printf("--- Test ft_lstnew ---\n");
-    printf("Contenido del nodo: %s\n", (char *)nodo->content);
-    
-    // Verificamos que 'next' sea NULL (es vital para evitar saltos al vacío)
-    if (nodo->next == NULL)
-        printf("Siguiente nodo: NULL (Correcto)\n");
-    else
-        printf("Siguiente nodo: ERROR (No es NULL)\n");
-
-    // 4. Liberamos la memoria (importante para evitar leaks)
-    free(nodo);
-
-    return (0);
+	contenido = "Jonatham, Joseph, Jotaro, Josuke, Giorno, Jolyne";
+	// 1. Creamos el nodo
+	nodo = ft_lstnew(contenido);
+	// 2. Verificamos si la asignación falló
+	if (!nodo)
+	{
+		printf("Error: No se pudo asignar memoria para el nodo.\n");
+		return (1);
+	}
+	// 3. Imprimimos los valores para comprobar
+	printf("--- Test ft_lstnew ---\n");
+	printf("Contenido del nodo: %s\n", (char *)nodo->content);
+	// Verificamos que 'next' sea NULL (es vital para evitar saltos al vacío)
+	if (nodo->next == NULL)
+		printf("Siguiente nodo: NULL (Correcto)\n");
+	else
+		printf("Siguiente nodo: ERROR (No es NULL)\n");
+	// 4. Liberamos la memoria (importante para evitar leaks)
+	free(nodo);
+	return (0);
 }
 */

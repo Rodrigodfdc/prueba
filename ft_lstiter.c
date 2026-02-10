@@ -6,7 +6,7 @@
 /*   By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 18:53:41 by rodde-fr          #+#    #+#             */
-/*   Updated: 2026/02/01 18:53:43 by rodde-fr         ###   ########.fr       */
+/*   Updated: 2026/02/10 19:54:54 by rodde-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,18 @@
 **
 ** RETORNO:
 ** - Ninguno.
+**
+*//*
+** FUNCTION: ft_lstiter
+** -------------------
+** Applies the function f to each element of the linked list lst.
+**
+** PARAMETERS:
+** - t_list *lst: Pointer to the linked list.
+** - void (*f)(void *): Function to apply to each element.
+**
+** RETURN:
+** - None.
 **
 */
 

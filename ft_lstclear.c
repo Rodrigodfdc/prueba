@@ -6,7 +6,7 @@
 /*   By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 18:53:15 by rodde-fr          #+#    #+#             */
-/*   Updated: 2026/02/01 18:53:16 by rodde-fr         ###   ########.fr       */
+/*   Updated: 2026/02/10 19:54:08 by rodde-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,19 @@
 **
 ** RETORNO:
 ** - Ninguno.
+**
+*//*
+** FUNCTION: ft_lstclear
+** --------------------
+** Frees the memory of all elements in the linked list and
+** sets the list pointer to NULL.
+**
+** PARAMETERS:
+** - t_list **lst: Double pointer to the linked list.
+** - void (*del)(void *): Function to free the content of each element.
+**
+** RETURN:
+** - None.
 **
 */
 

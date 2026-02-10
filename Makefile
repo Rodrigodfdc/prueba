@@ -6,7 +6,7 @@
 #    By: rodde-fr <rodde-fr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/06 18:44:27 by rodde-fr          #+#    #+#              #
-#    Updated: 2026/02/06 18:47:13 by rodde-fr         ###   ########.fr        #
+#    Updated: 2026/02/10 19:51:18 by rodde-fr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,6 @@ $(NAME): $(MY_OBJECTS)
 
 clean:
 	rm -f $(MY_OBJECTS)
-	rm -f $(BONUS_OBJECTS)
 
 fclean: clean
 	rm -f $(NAME)
